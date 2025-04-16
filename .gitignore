@@ -1,1 +1,6 @@
 .qodo
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
