@@ -91,7 +91,12 @@ class SinglyLinkedList:
 
     def __str__(self):
         """string representation"""
-        return f"{self.__class__.__name__}()"
+        current = self.head
+        result = []
+        while current:
+            result.append(current.data)
+            current = current.next
+        return " -> ".join(result)
 
 
 class Node:
